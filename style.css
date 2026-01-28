@@ -135,6 +135,55 @@ footer {
     color: white;
     border-radius: 10px;
 }
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.btn.secondary {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
 
 @media (max-width: 768px) {
     .two-column {
