@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iqra Zafar | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -123,7 +124,7 @@
 
             <section>
                 <h2>Contact Me</h2>
-                <form>
+                <form id="contact-form">
                     <label for="fullname">Full Name</label>
                     <input id="fullname" type="text" placeholder="Your full name" required>
 
@@ -142,8 +143,9 @@
                     <textarea id="message" rows="4" required
                         placeholder="Briefly describe your project or idea"></textarea>
 
-                    <button type="submit">Send Inquiry</button>
+                    <button type="submit" id="submit-btn">Send Inquiry</button>
                 </form>
+                <p id="form-status"></p>
             </section>
 
         </main>
@@ -151,9 +153,11 @@
         <footer>
             <p>© 2026 Iqra Zafar</p>
         </footer>
+        
 
     </div>
 </div>
+<script src="script.js"></script>
 
 </body>
 </html>
